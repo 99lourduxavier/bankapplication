@@ -33,7 +33,7 @@ if ch=="2":
 if ch=="3":
     deposit()
 if ch=="4":
-    ministate()      
+    ministatement()      
 def balance():    
     a=random.randint(2000,3000) 
     print("accno:",a)
@@ -54,7 +54,7 @@ def deposit():
     deplist.append(dep) 
     print("amount has been added:")
     deposit() 
-def minstate(): 
+def ministatement(): 
     print("gmail:",gmail) 
     print("accno:",a) 
     print("balance:",balan)
